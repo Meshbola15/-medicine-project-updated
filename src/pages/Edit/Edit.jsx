@@ -13,7 +13,8 @@ const Edit = () => {
   const [editID, setEditID] = useState("");
   const [isEditing, setIsEditing] = useState(false);
 
-  const { list, loading, showAlert, alert, getData, searchTerm } = useGlobalContext();
+  const { list, loading, showAlert, alert, getData, searchTerm } =
+    useGlobalContext();
 
   useEffect(() => {
     if (loading) {
@@ -51,7 +52,7 @@ const Edit = () => {
       showAlert(true, "danger", error.message);
       setIsEditing(false);
     }
-
+    getData();
     setPrice("");
     setName("");
     setDesc("");
@@ -76,6 +77,7 @@ const Edit = () => {
       setPrice(docSnap.data().price);
       setDesc(docSnap.data().desc);
       setDosage(docSnap.data().dosage);
+      getData();
     } catch (error) {
       showAlert(true, "danger", error.message);
     }

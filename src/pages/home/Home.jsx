@@ -20,7 +20,8 @@ const Home = () => {
           if (searchTerm == "") {
             return item;
           } else if (
-            item.name.toLowerCase().includes(searchTerm.toLowerCase())
+            item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            item.desc.toLowerCase().includes(searchTerm.toLowerCase())
           ) {
             return item;
           }

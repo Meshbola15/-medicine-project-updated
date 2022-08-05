@@ -31,8 +31,9 @@ const AppProvider = ({ children }) => {
   useEffect(() => {
     setLoading(true);
     getData();
+    console.log("refresh");
     setLoading(false);
-  }, [list]);
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(list));

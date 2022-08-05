@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAG-mRrNpoFFa9lcdCIOCN_QiSfn_t-u-8",
-  authDomain: "medical-pro-2.firebaseapp.com",
-  projectId: "medical-pro-2",
-  storageBucket: "medical-pro-2.appspot.com",
-  messagingSenderId: "16851453964",
-  appId: "1:16851453964:web:aec6af81b036e6e3ec4629",
+  apiKey: "AIzaSyBhWxeesRC8CVrzZGySe3HXweqo169Ulsk",
+  authDomain: "medical-801fe.firebaseapp.com",
+  projectId: "medical-801fe",
+  storageBucket: "medical-801fe.appspot.com",
+  messagingSenderId: "840315288645",
+  appId: "1:840315288645:web:fcfbeb7278e970f57f372c",
 };
 
 const app = initializeApp(firebaseConfig);
