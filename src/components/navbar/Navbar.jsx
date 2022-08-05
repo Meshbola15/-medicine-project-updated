@@ -7,7 +7,7 @@ const Navbar = () => {
   const { searchTerm, setSearchTerm } = useGlobalContext();
   return (
     <div className="w-full h-auto p-5 flex items-center justify-between bg-white shadow-lg fixed top-0">
-      <Link to="/" className="text-3xl font-[consolas] uppercase font-light">
+      <Link to="/" className="text-xl md:text-3xl font-[consolas] uppercase font-light">
         Medicine
       </Link>
 
