@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navlink a.active {
+    color: rgb(251 113 133);
+}
+
+.alert-danger {
+    background-color: #fa6868;
+}
+
+.alert-success {
+    background-color: #6dec9c;
+}
