@@ -14,7 +14,7 @@ const Home = () => {
     }
   }, []);
   return (
-    <div className="py-32 w-full">
+    <div className="py-28">
       {list
         .filter((item) => {
           if (searchTerm == "") {
