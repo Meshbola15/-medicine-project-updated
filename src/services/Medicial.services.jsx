@@ -1,4 +1,4 @@
-import { db } from "../Firebase/Firebase.config";
+import { db } from "../firebase/Firebase.config";
 
 import {
   collection,
@@ -30,7 +30,7 @@ class medicalDataService {
 
   getMedicial = (id) => {
     const medicalDoc = doc(db, "Medical", id);
-    return getDoc (medicalDoc);
+    return getDoc(medicalDoc);
   };
 }
 
