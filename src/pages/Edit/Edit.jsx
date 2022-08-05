@@ -90,7 +90,7 @@ const Edit = () => {
 
   return (
     <div className="py-32">
-      <section className="w-[80%]  flex flex-col justify-center items-center md:w-[60%] mx-auto bg-white mt-10 p-4 shadow-lg rounded-3xl">
+      <section className="w-[90%] flex flex-col justify-center items-center md:w-[70%] mx-auto bg-white mt-10 p-4 shadow-lg rounded-3xl">
         <h2 className="text-center text-4xl font-black">Edit Items</h2>
         {alert.show && <Alert {...alert} removeAlert={showAlert} />}
         <form

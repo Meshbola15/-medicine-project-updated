@@ -14,7 +14,7 @@ const Home = () => {
     }
   }, []);
   return (
-    <div className="py-32 flex flex-col md:flex-row items-center justify-start flex-wrap w-full">
+    <div className="py-32 w-full">
       {list
         .filter((item) => {
           if (searchTerm == "") {
